@@ -9,6 +9,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
+  <!-- **Font Awesome** -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css" integrity="sha256-PF6MatZtiJ8/c9O9HQ8uSUXr++R9KBYu4gbNG5511WE=" crossorigin="anonymous" />
+
   <!-- ** Plugins Needed for the Project ** -->
   <!-- Bootstrap -->
   <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
@@ -73,7 +76,7 @@
       <nav class="navbar navbar-expand-lg navbar-dark p-0">
 		<a class="navbar-brand" href="index"><img src="images/logo3.png" alt="logo"></a>
 		
-        <button class="navbar-toggler rounded-0" type="button" data-toggle="collapse" data-target="#navigation"
+        <button id="botonMenu" class="navbar-toggler rounded-0" type="button" data-toggle="collapse" data-target="#navigation"
           aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -81,10 +84,10 @@
         <div class="collapse navbar-collapse" id="navigation">
           <ul class="navbar-nav ml-auto text-center">
             <li class="nav-item active">
-              <a class="nav-link" data-scroll href="#AcercaDeCIA">Acerca de CIA</a>
+              <a class="nav-link clickMenu" data-scroll href="#AcercaDeCIA">Acerca de CIA</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" data-scroll href="#DondeOperamos">¿Dónde Operamos?</a>
+              <a class="nav-link clickMenu" data-scroll href="#DondeOperamos">¿Dónde Operamos?</a>
             </li>
             <li class="nav-item @@about">
               <a class="nav-link" href="servicios">Servicios</a>
@@ -768,6 +771,7 @@
 <!-- Animaciones -->
 <script src="js/eskju.jquery.scrollflow.min.js"></script>
 <script src="js/smooth-scroll.min.js"></script>
+<script src="js/menu.js"></script>
 <script>
   smoothScroll.init({
   selector: '[data-scroll]', // Selector for links (must be a class, ID, data attribute, or element tag)
@@ -778,6 +782,7 @@
   callback: function ( anchor, toggle ) {} // Function to run after scrolling
   });
 </script>
+
 
 </body>
 </html>
