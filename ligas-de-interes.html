@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>CIA - Consultoria, Impuestos y Auditorias</title>
+  <title>CIA - Consultoría, Impuestos y Auditorías</title>
 
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -80,8 +80,11 @@
 
         <div class="collapse navbar-collapse" id="navigation">
           <ul class="navbar-nav ml-auto text-center">
-            <li class="nav-item active">
-              <a class="nav-link" href="index">Acerca de CIA</a>
+            <li class="nav-item">
+              <a class="nav-link" href="index#AcercaDeCIA">Acerca de CIA</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index#DondeOperamos">¿Dónde Operamos?</a>
             </li>
             <li class="nav-item @@about">
               <a class="nav-link" href="servicios">Servicios</a>
@@ -404,6 +407,17 @@
 
 <!-- Main Script -->
 <script src="js/script.js"></script>
+<script src="js/smooth-scroll.min.js"></script>
+<script>
+  smoothScroll.init({
+  selector: '[data-scroll]', // Selector for links (must be a class, ID, data attribute, or element tag)
+  selectorHeader: null, // Selector for fixed headers (must be a valid CSS selector) [optional]
+  speed: 600, // Integer. How fast to complete the scroll in milliseconds
+  easing: 'easeOutQuint', // Easing pattern to use
+  offset: 0, // Integer. How far to offset the scrolling anchor location in pixels
+  callback: function ( anchor, toggle ) {} // Function to run after scrolling
+  });
+</script>
 
 </body>
 </html>

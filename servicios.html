@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>CIA - Consultoria, Impuestos y Auditorias</title>
+  <title>CIA - Consultoría, Impuestos y Auditorías</title>
 
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -81,7 +81,10 @@
         <div class="collapse navbar-collapse" id="navigation">
           <ul class="navbar-nav ml-auto text-center">
             <li class="nav-item">
-              <a class="nav-link" href="index">Acerca de CIA</a>
+              <a class="nav-link" href="index#AcercaDeCIA">Acerca de CIA</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index#DondeOperamos">¿Dónde Operamos?</a>
             </li>
             <li class="nav-item active">
               <a class="nav-link" href="servicios">Servicios</a>
@@ -129,7 +132,7 @@
           <li class="list-inline-item"><a class="h2 text-primary font-secondary" href="@@page-link">Servicios</a></li>
           <li class="list-inline-item text-white h3 font-secondary @@nasted"></li>
         </ul>
-        <p class="text-lighten">Ofrecemos un servicio multidisciplinario en las áreas contables, fiscales, financieras y operativas con el objetivo común de apoyar en los esfuerzos de crecimiento y desarrollo de nuestros clientes. Nuestro despacho está liderado por personal con alta capacidad y experiencia, practicando en las organizaciones sus valores éticos, profesionalismo, compartiendo el conocimiento con objetividad e independencia.
+        <p class="text-lighten">Ofrecemos un servicio multidisciplinario en las áreas contables, fiscales, financieras y operativas con el objetivo común de apoyar en los esfuerzos de crecimiento y desarrollo de nuestros clientes. Nuestra firma está liderada por personal con alta capacidad y experiencia, practicando en las organizaciones sus valores éticos, profesionalismo, compartiendo el conocimiento con objetividad e independencia.
         </p>
       </div>
     </div>
@@ -143,7 +146,7 @@
     <div class="row">
       <div class="col-12">
         <img class="img-fluid w-100 mb-4" src="images/services/consultoria2.jpg" alt="about image">
-        <h2 class="section-title">Consultoria</h2>
+        <h2 class="section-title">Consultoría</h2>
         <p style="text-align: justify;">Nuestros servicios de consultoría integral permiten identificar eficientemente  riesgos y convertirlos en oportunidades, generando propuestas de valor para proteger tu patrimonio.
         </p>
         <ul class="list-styled">
@@ -185,7 +188,7 @@
     <div class="row">
       <div class="col-12">
         <img class="img-fluid w-100 mb-4" src="images/services/lupa2.jpg" alt="about image">
-        <h2 class="section-title">Auditoria</h2>
+        <h2 class="section-title">Auditoría</h2>
         <p style="text-align: justify;">Consolidamos nuestros conocimientos financieros, operativos y estatutarios, para darte una opinión veraz y oportuna de tu situación financiera y análisis integral basado en riesgos de tu modelo de negocio. 
         </p>
         <ul class="list-styled">
@@ -382,6 +385,17 @@
 
 <!-- Animaciones -->
 <script src="js/eskju.jquery.scrollflow.min.js"></script>
+<script src="js/smooth-scroll.min.js"></script>
+<script>
+  smoothScroll.init({
+  selector: '[data-scroll]', // Selector for links (must be a class, ID, data attribute, or element tag)
+  selectorHeader: null, // Selector for fixed headers (must be a valid CSS selector) [optional]
+  speed: 600, // Integer. How fast to complete the scroll in milliseconds
+  easing: 'easeOutQuint', // Easing pattern to use
+  offset: 0, // Integer. How far to offset the scrolling anchor location in pixels
+  callback: function ( anchor, toggle ) {} // Function to run after scrolling
+  });
+</script>
 
 </body>
 </html>

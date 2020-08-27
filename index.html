@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>CIA - Consultoria, Impuestos y Auditorias</title>
+  <title>CIA - Consultoría, Impuestos y Auditorías</title>
 
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -81,7 +81,10 @@
         <div class="collapse navbar-collapse" id="navigation">
           <ul class="navbar-nav ml-auto text-center">
             <li class="nav-item active">
-              <a class="nav-link" href="index">Acerca de CIA</a>
+              <a class="nav-link" data-scroll href="#AcercaDeCIA">Acerca de CIA</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-scroll href="#DondeOperamos">¿Dónde Operamos?</a>
             </li>
             <li class="nav-item @@about">
               <a class="nav-link" href="servicios">Servicios</a>
@@ -191,7 +194,7 @@
       <div class="hero-slider-item">
         <div class="row">
           <div class="col-md-8">
-            <a href="servicios#Consultoria"><h1 class="text-white" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".1">Consultoria</h1></a>  
+            <a href="servicios#Consultoria"><h1 class="text-white" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".1">Consultoría</h1></a>  
             <p class="text-muted mb-4" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".4"  style="text-align: justify;">Nuestros servicios de consultoría integral permiten identificar eficientemente  riesgos y convertirlos en oportunidades, generando propuestas de valor para proteger tu patrimonio.
             </p>
             <a href="servicios#Consultoria" class="btn btn-primary" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".7">Cónoce más</a>
@@ -212,7 +215,7 @@
       <div class="hero-slider-item">
         <div class="row">
           <div class="col-md-8">
-            <a href="servicios#Auditoria"><h1 class="text-white" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".1">Auditoria</h1></a>  
+            <a href="servicios#Auditoria"><h1 class="text-white" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".1">Auditoría</h1></a>  
             <p class="text-muted mb-4" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".4"  style="text-align: justify;">Consolidamos nuestros conocimientos financieros, operativos y estatutarios, para darte una opinión veraz y oportuna de tu situación financiera y análisis integral basado en riesgos de tu modelo de negocio.
             </p>
             <a href="servicios#Auditoria" class="btn btn-primary" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".7">Cónoce más</a>
@@ -276,7 +279,7 @@
 <!-- /banner-feature -->
 
 <!-- about us -->
-<section class="section">
+<section class="section" id="AcercaDeCIA">
   <div class="container scrollflow -slide-top -opacity">
     <div class="row align-items-center">
       <div class="col-md-6 order-2 order-md-1">
@@ -298,14 +301,14 @@
 <!-- /about us -->
 
 <!-- about us 2-->
-<section class="section">
+<section class="section" id="DondeOperamos">
   <div class="container scrollflow -slide-top -opacity">
     <div class="row align-items-center">
       <div class="col-md-6 order-2 order-md-2">
         <h2 class="section-title">Donde operamos</h2>
         <p>Operamos en toda la Republica Mexica a través de diversas alianzas, nuestra firma esta ubicada en el sureste de Mexico, principalmente prestando servicios a empresa en Mérida, Yucatán y Cancún, Quintana Roo.<br><br>
 
-        Actualmente estamos trabajando a través de medios electrónicos y oficinas virtuales, realizando visitas y juntas presenciales solo de ser requerido, esto nos permite mantener tarifas competitivas de nuestros servicios, y como nuevas medidas de prevención por el Covid-19.
+        Actualmente estamos trabajando a través de medios electrónicos y oficinas virtuales, realizando visitas y juntas presenciales solo de ser requerido, esto nos permite mantener tarifas competitivas de nuestros servicios.
           
         </p>
         <!--<a href="about.html" class="btn btn-primary-outline">Learn more</a>-->
@@ -344,7 +347,7 @@
           <li class="list-inline-item"><a class="text-color" href="#">Humanities</a></li>
         </ul>-->
 
-        <h4 class="card-title">Consultoria</h4>
+        <h4 class="card-title">Consultoría</h4>
         </a>
         <p class="card-text mb-4">
 
@@ -391,7 +394,7 @@
           <li class="list-inline-item"><a class="text-color" href="#">Humanities</a></li>
         </ul>-->
 
-        <h4 class="card-title">Auditoria</h4>
+        <h4 class="card-title">Auditoría</h4>
         <p class="card-text mb-4"> 
 
           -Financiera.<br>
@@ -764,6 +767,17 @@
 
 <!-- Animaciones -->
 <script src="js/eskju.jquery.scrollflow.min.js"></script>
+<script src="js/smooth-scroll.min.js"></script>
+<script>
+  smoothScroll.init({
+  selector: '[data-scroll]', // Selector for links (must be a class, ID, data attribute, or element tag)
+  selectorHeader: null, // Selector for fixed headers (must be a valid CSS selector) [optional]
+  speed: 600, // Integer. How fast to complete the scroll in milliseconds
+  easing: 'easeOutQuint', // Easing pattern to use
+  offset: 0, // Integer. How far to offset the scrolling anchor location in pixels
+  callback: function ( anchor, toggle ) {} // Function to run after scrolling
+  });
+</script>
 
 </body>
 </html>
