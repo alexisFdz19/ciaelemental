@@ -1,0 +1,38 @@
+<nav aria-label="breadcrumb">
+
+	<ol class="breadcrumb">
+
+		<li class="breadcrumb-item"><a href="<?php echo APP_URL; ?>">Inicio</a></li>
+		<li class="breadcrumb-item"><a href="<?php echo APP_URL."categorias/"; ?>">Categorias</a></li>
+		<li class="breadcrumb-item active" aria-current>Editar</li>
+		
+	</ol>
+
+</nav>
+
+
+<div class="row">
+
+	<div class="col-sm-12">
+
+		<h1>Editar categoría</h1>
+
+		<hr>
+
+        <form action="<?php echo APP_URL."categorias/editar"; ?>" method="POST">
+
+            <input type="hidden" name="id" value="<?php echo $this->categorias["id"]; ?>">
+
+            <label for="nombre">Nombre</label>
+			<input class="form-control" type="text" name="nombre" value="<?php echo $this->categorias["nombre"]; ?>">
+            <br>
+            <br>
+
+            <button class="btn btn-primary" type="submit" value="Guardar categoría">Guardar categoría</button>
+
+        </form>
+
+    </div>
+
+</div>
+
