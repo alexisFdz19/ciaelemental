@@ -34,18 +34,57 @@
     <!-- course list -->
     <div class="row justify-content-center">
 
+      <?php
+
+        // Impresor de ligas
+        $item = null;
+        $valor = null;
+
+        $ligas = ControladorLigas::ctrMostrarLigas($item, $valor);
+
+        foreach ($ligas as $key => $value){
+
+          echo '
+
+          <div class="col-lg-4 col-sm-6 mb-5">
+
+            <div class="card p-0 border-primary rounded-0 hover-shadow">
+  
+              <div class="card-body">
+    
+                <a href="">
+                  <h4 class="card-title">'.$value["nombre"].'</h4>
+                </a>
+    
+                <p class="card-text mb-4">'.$value["descripcion"].'</p>
+    
+                <a href="'.$value["link"].'" target="_blank" class="btn btn-primary btn-sm">Ver más</a>
+    
+              </div>
+    
+            </div>
+    
+          </div>
+
+          ';
+
+        }
+
+
+      ?>
+
       <!-- course item -->
-      <div class="col-lg-4 col-sm-6 mb-5">
+      <!--<div class="col-lg-4 col-sm-6 mb-5">
 
         <div class="card p-0 border-primary rounded-0 hover-shadow">
 
-          <!--<img class="card-img-top rounded-0" src="images/courses/course-1.jpg" alt="course thumb">-->
+          <img class="card-img-top rounded-0" src="images/courses/course-1.jpg" alt="course thumb">
 
           <div class="card-body">
 
             <ul class="list-inline mb-2">
 
-              <!--<li class="list-inline-item"><i class="ti-calendar mr-1 text-color"></i>02-14-2018</li>-->
+              <li class="list-inline-item"><i class="ti-calendar mr-1 text-color"></i>02-14-2018</li>
 
               <li class="list-inline-item"><a class="text-color" href="#">Consultoría</a></li>
 
@@ -63,172 +102,7 @@
 
         </div>
 
-      </div>
-      
-      <!-- course item -->
-      <div class="col-lg-4 col-sm-6 mb-5">
-
-        <div class="card p-0 border-primary rounded-0 hover-shadow">
-
-          <!--<img class="card-img-top rounded-0" src="images/courses/course-1.jpg" alt="course thumb">-->
-
-          <div class="card-body">
-
-            <ul class="list-inline mb-2">
-
-              <!--<li class="list-inline-item"><i class="ti-calendar mr-1 text-color"></i>02-14-2018</li>-->
-
-              <li class="list-inline-item"><a class="text-color" href="#">Consultoría</a></li>
-
-            </ul>
-
-            <a href="">
-              <h4 class="card-title">Liga de interés demo</h4>
-            </a>
-
-            <p class="card-text mb-4"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-
-            <a href="" class="btn btn-primary btn-sm">Ver más</a>
-
-          </div>
-
-        </div>
-
-      </div>
-
-      <!-- course item -->
-      <div class="col-lg-4 col-sm-6 mb-5">
-
-        <div class="card p-0 border-primary rounded-0 hover-shadow">
-
-          <!--<img class="card-img-top rounded-0" src="images/courses/course-1.jpg" alt="course thumb">-->
-          
-          <div class="card-body">
-
-            <ul class="list-inline mb-2">
-
-              <!--<li class="list-inline-item"><i class="ti-calendar mr-1 text-color"></i>02-14-2018</li>-->
-
-              <li class="list-inline-item"><a class="text-color" href="#">Consultoría</a></li>
-
-            </ul>
-
-            <a href="">
-
-              <h4 class="card-title">Liga de interés demo</h4>
-
-            </a>
-
-            <p class="card-text mb-4"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-
-            <a href="" class="btn btn-primary btn-sm">Ver más</a>
-
-          </div>
-
-        </div>
-
-      </div>
-
-      <!-- course item -->
-
-      <div class="col-lg-4 col-sm-6 mb-5">
-
-        <div class="card p-0 border-primary rounded-0 hover-shadow">
-
-          <!--<img class="card-img-top rounded-0" src="images/courses/course-1.jpg" alt="course thumb">-->
-          
-          <div class="card-body">
-
-            <ul class="list-inline mb-2">
-
-              <!--<li class="list-inline-item"><i class="ti-calendar mr-1 text-color"></i>02-14-2018</li>-->
-
-              <li class="list-inline-item"><a class="text-color" href="#">Consultoría</a></li>
-
-            </ul>
-
-            <a href="">
-
-              <h4 class="card-title">Liga de interés demo</h4>
-
-            </a>
-
-            <p class="card-text mb-4"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-
-            <a href="" class="btn btn-primary btn-sm">Ver más</a>
-
-          </div>
-
-        </div>
-
-      </div>
-
-      <!-- course item -->
-      <div class="col-lg-4 col-sm-6 mb-5">
-
-        <div class="card p-0 border-primary rounded-0 hover-shadow">
-
-          <!--<img class="card-img-top rounded-0" src="images/courses/course-1.jpg" alt="course thumb">-->
-          <div class="card-body">
-
-            <ul class="list-inline mb-2">
-
-              <!--<li class="list-inline-item"><i class="ti-calendar mr-1 text-color"></i>02-14-2018</li>-->
-
-              <li class="list-inline-item"><a class="text-color" href="#">Consultoría</a></li>
-
-            </ul>
-
-            <a href="">
-
-              <h4 class="card-title">Liga de interés demo</h4>
-
-            </a>
-
-            <p class="card-text mb-4"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-
-            <a href="" class="btn btn-primary btn-sm">Ver más</a>
-
-          </div>
-
-        </div>
-
-      </div>
-
-      <!-- course item -->
-      <div class="col-lg-4 col-sm-6 mb-5">
-
-        <div class="card p-0 border-primary rounded-0 hover-shadow">
-
-          <!--<img class="card-img-top rounded-0" src="images/courses/course-1.jpg" alt="course thumb">-->
-
-          <div class="card-body">
-
-            <ul class="list-inline mb-2">
-
-              <!--<li class="list-inline-item"><i class="ti-calendar mr-1 text-color"></i>02-14-2018</li>-->
-
-              <li class="list-inline-item"><a class="text-color" href="#">Consultoría</a></li>
-
-            </ul>
-
-            <a href="">
-
-              <h4 class="card-title">Liga de interés demo</h4>
-
-            </a>
-
-            <p class="card-text mb-4"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-
-            <a href="" class="btn btn-primary btn-sm">Ver más</a>
-
-          </div>
-
-        </div>
-
-      </div>
-
-    </div>
+      </div>-->
 
     <!-- /course list -->
 
