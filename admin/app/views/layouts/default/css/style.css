@@ -37,6 +37,13 @@ body {
   height: 100%;
 }
 
+.botonM{
+
+  padding-left: 6px !important;
+  padding-right: 6px !important;
+
+}
+
 .wrapper {
 
   min-height: calc(100% - 4rem);
@@ -403,7 +410,7 @@ a h4:hover {
 }
 
 .text-color {
-  color: #5c5c77;
+  color: #1A1A37;
 }
 
 .text-light {

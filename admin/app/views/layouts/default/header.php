@@ -49,7 +49,7 @@
 
 						<li class="list-inline-item">
 							
-							<a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="<?php echo APP_URL."../../"; ?>" style="background-color: #ffffff";>Regresar al Sitio Web</a>
+							<a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block botonM" href="<?php echo APP_URL."../../"; ?>" style="background-color: #ffffff";>Regresar al Sitio Web</a>
 						
 						</li>
 
