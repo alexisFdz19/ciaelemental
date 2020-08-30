@@ -3,21 +3,23 @@
 	<ol class="breadcrumb">
 
 		<li class="breadcrumb-item"><a href="<?php echo APP_URL; ?>">Inicio</a></li>
-		<li class="breadcrumb-item active" aria-current="page">Categorias</li>
+		<li class="breadcrumb-item active" aria-current="page">Categorías</li>
 		
 	</ol>
 
 </nav>
+<br>
 
 <div class="row">
 
 	<div class="col-sm-12">
 
-		<h1>Lista de categorías</h1>
+		<h2>Lista de categorías</h2>
+		<br>
 
         <a href="<?php echo APP_URL."categorias/agregar"; ?>">
 
-			<button type="button" class="btn btn-primary">Agregar categoría</button>
+			<button type="button" class="btn btn-primary btn-xs">Agregar categoría</button>
 
 		</a>
 
@@ -30,7 +32,7 @@
 				<tr>
 					<th>ID</th>
 					<th>Nombre</th>
-                    <th><p>Acción<p/></th>
+                    <th>Acción</th>
 				</tr>
 
                 <?php foreach ($this->categorias as $categoria): ?>
@@ -45,15 +47,15 @@
                     
                         <a href="<?php echo APP_URL."categorias/editar/".$categoria["id"]; ?>">
 							
-							<button type="button" class="btn btn-light">Editar</button>
+							<button type="button" class="btn btn-light btn-xs">Editar</button>
 
 						</a>
 
-                        |
+                        
 
                         <a href="<?php echo APP_URL."categorias/eliminar/".$categoria["id"]; ?>">
 							
-							<button type="button" class="btn btn-danger confirmation2">Eliminar</button>
+							<button type="button" class="btn btn-danger btn-xs confirmation2">Eliminar</button>
 
 						</a>
                     
