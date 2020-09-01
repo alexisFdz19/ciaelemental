@@ -259,7 +259,7 @@
 
     <div class="card p-0 border-primary rounded-0 hover-shadow">
 
-      <img class="card-img-top rounded-0" src="images/services/lupa.jpg" alt="course thumb">
+      <img class="card-img-top rounded-0" src="<?php echo $url?>views/images/services/lupa.jpg" alt="course thumb">
 
       <div class="card-body">
 

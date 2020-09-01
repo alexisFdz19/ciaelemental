@@ -55,6 +55,9 @@
                 <a href="">
                   <h4 class="card-title">'.$value["nombre"].'</h4>
                 </a>
+
+                <li class="list-inline-item" style="color: #F29C3C;"><i class="ti-calendar mr-1 text-color"></i>'.$value["fecha"].'</li>
+                <br><br>
     
                 <p class="card-text mb-4">'.$value["descripcion"].'</p>
     
