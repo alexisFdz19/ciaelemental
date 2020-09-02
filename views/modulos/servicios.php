@@ -118,7 +118,7 @@
           <li>Financiera</li>
           <li>Interna e Integral.</li>
           <li>Ambiental y </li>
-          <li>Tecnologias de Información.</li>
+          <li>Tecnologías de Información.</li>
 
         </ul>
 

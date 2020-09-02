@@ -103,7 +103,7 @@
 
         <h2 class="section-title" style="color: #F29C3C;">Acerca de CIA Elemental</h2>
 
-          <p style="text-align: justify; color: #d6d6e0;">Somos una firma especializada en servicios de Consultoría, Impuestos y Auditoria, con una visión estratégica de negocios para las distintas industrias de transformación, consumo, hotelería y de servicios.  A lo largo de mas de 18 años de experiencia hemos consolidado una metodología  de trabajo clara para la gestión del riesgo.<br><br>
+          <p style="text-align: justify; color: #d6d6e0;">Somos una firma especializada en servicios de Consultoría, Impuestos y Auditoría, con una visión estratégica de negocios para las distintas industrias de transformación, consumo, hotelería y de servicios.  A lo largo de mas de 18 años de experiencia hemos consolidado una metodología  de trabajo clara para la gestión del riesgo.<br><br>
 
           Nuestra misión es prestar un servicio Integrado consolidando cada parte en un todo, para ofrecer resultados oportunos y eficientes.<br><br>
             
