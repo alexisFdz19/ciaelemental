@@ -21,7 +21,7 @@ body {
   font-family: "Poppins", sans-serif;
   -webkit-font-smoothing: antialiased;
   font-size: 15px;
-  color: #5c5c77;
+  
 }
 
 p, .paragraph {
@@ -51,6 +51,25 @@ h1, .h1 {
 
 h2, .h2 {
   font-size: 40px;
+}
+
+.appWhatsApp{
+
+  position: fixed;
+  right: 26px;
+  bottom: 20px;
+  width: 60px;
+  z-index: 1000;
+
+}
+
+.appWhatsApp img{
+
+  width: 100%;
+  height: auto;
+  border-radius: 50px;
+  box-shadow: 0 0 3px black;
+
 }
 
 @media (max-width: 575px) {

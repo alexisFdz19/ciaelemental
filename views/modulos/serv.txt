@@ -1,0 +1,179 @@
+<!-- courses -->
+<section class="section-sm hero-section overlay">
+
+  <div class="container scrollflow -slide-top -opacity">
+
+    <div class="row">
+
+      <div class="col-12">
+
+        <div class="d-flex align-items-center section-title justify-content-between">
+
+          <h2 class="mb-0 text-nowrap mr-3" style="color: #F29C3C;">Servicios</h2>
+
+          <div class="border-top w-100 border-primary d-none d-sm-block"></div>
+          <!--<div>
+            <a href="courses.html" class="btn btn-sm btn-primary-outline ml-sm-3 d-none d-sm-block">see all</a>
+          </div>-->
+
+        </div>
+
+      </div>
+
+    </div>
+
+  <!-- course list -->
+  <div class="row justify-content-center">
+
+    <!-- course item -->
+    <div class="col-lg-3 col-sm-6 mb-5">
+
+      <div class="card p-0 border-primary rounded-0 hover-shadow">
+
+        <img class="card-img-top rounded-0" src="<?php echo $url?>views/images/services/consultoria.jpg" alt="course thumb">
+
+        <div class="card-body overlay">
+
+          <!--<ul class="list-inline mb-2">
+            <li class="list-inline-item"><i class="ti-calendar mr-1 text-color"></i>02-14-2018</li>
+            <li class="list-inline-item"><a class="text-color" href="#">Humanities</a></li>
+          </ul>-->
+
+          <h4 class="card-title">Consultoría</h2>
+          <br>  
+
+          </a>
+
+          <ul class="list-styled">
+
+            <li style="color: #d6d6e0;">Contabilidad</li>
+            <li style="color: #d6d6e0;">Análisis de Estados Financieros bajo Normatividad Mexicana e Internacional.</li>
+            <li style="color: #d6d6e0;">Nóminas y Seguridad Social.</li>
+            <li style="color: #d6d6e0;">Consolidación Financiera y Conversión de Moneda Extranjera.</li>
+
+          </ul>
+
+          <!--<a href="course-single.html" class="btn btn-primary btn-sm">Apply now</a>-->
+
+        </div>
+
+      </div>
+
+    </div>
+
+  <!-- course item -->
+  <div class="col-lg-3 col-sm-6 mb-5">
+
+    <div class="card p-0 border-primary rounded-0 hover-shadow">
+
+      <img class="card-img-top rounded-0" src="<?php echo $url?>views/images/services/impuestos.jpg" alt="course thumb">
+
+      <div class="card-body overlay">
+
+        <!--<ul class="list-inline mb-2">
+          <li class="list-inline-item"><i class="ti-calendar mr-1 text-color"></i>02-14-2018</li>
+          <li class="list-inline-item"><a class="text-color" href="#">Humanities</a></li>
+        </ul>-->
+
+        <h4 class="card-title">Impuestos</h4>
+        <br>
+
+        <ul class="list-styled">
+
+          <li style="color: #d6d6e0;">Impuestos Corporativos.</li>
+          <li style="color: #d6d6e0;">Precios de Transferencia.</li>
+          <li style="color: #d6d6e0;">Diagnóstico Fiscal.</li>
+          <li style="color: #d6d6e0;">Asesoría y Capacitación.</li>
+
+        </ul>
+
+        <!--<a href="course-single.html" class="btn btn-primary btn-sm">Apply now</a>-->
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- course item -->
+
+  <div class="col-lg-3 col-sm-6 mb-5">
+
+    <div class="card p-0 border-primary rounded-0 hover-shadow">
+
+      <img class="card-img-top rounded-0" src="<?php echo $url?>views/images/services/lupa.jpg" alt="course thumb">
+
+      <div class="card-body overlay">
+
+        <!--<ul class="list-inline mb-2">
+          <li class="list-inline-item"><i class="ti-calendar mr-1 text-color"></i>02-14-2018</li>
+          <li class="list-inline-item"><a class="text-color" href="#">Humanities</a></li>
+        </ul>-->
+
+        <h4 class="card-title">Auditoría</h4>
+        <br>
+
+        <ul class="list-styled">
+
+          <li style="color: #d6d6e0;">Financiera</li>
+          <li style="color: #d6d6e0;">Interna e Integral.</li>
+          <li style="color: #d6d6e0;">Ambiental y </li>
+          <li style="color: #d6d6e0;">Tecnologias de Información.</li>
+
+        </ul>
+
+        <!--<a href="course-single.html" class="btn btn-primary btn-sm">Apply now</a>-->
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- course item -->
+  <div class="col-lg-3 col-sm-6 mb-5">
+
+    <div class="card p-0 border-primary rounded-0 hover-shadow">
+
+      <img class="card-img-top rounded-0" src="<?php echo $url?>views/images/services/engine.jpg" alt="course thumb">
+
+      <div class="card-body overlay">
+
+        <!--<ul class="list-inline mb-2">
+          <li class="list-inline-item"><i class="ti-calendar mr-1 text-color"></i>02-14-2018</li>
+          <li class="list-inline-item"><a class="text-color" href="#">Humanities</a></li>
+        </ul>-->
+
+        <h4 class="card-title">Aseguramiento y cumplimiento</h4>
+        <br>
+
+        <ul class="list-styled">
+
+          <li style="color: #d6d6e0;">Peritaje contable.</li>
+          <li style="color: #d6d6e0;">Control Interno.</li>
+          <li style="color: #d6d6e0;">Gestión de Riesgos Empresariales.</li>
+          <li style="color: #d6d6e0;">Gobierno Corporativo.</li>
+
+        </ul>
+
+        <!--<a href="course-single.html" class="btn btn-primary btn-sm">Apply now</a>-->
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+<!-- /course list -->
+    <!-- mobile see all button -->
+    <!--<div class="row">
+      <div class="col-12 text-center">
+        <a href="courses.html" class="btn btn-sm btn-primary-outline d-sm-none d-inline-block">sell all</a>
+      </div>
+    </div>-->
+  </div>
+
+</section>
+<!-- /courses -->

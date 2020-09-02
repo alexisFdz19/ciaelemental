@@ -17,7 +17,7 @@
 
         </ul>
 
-        <p class="text-lighten">Ofrecemos un servicio multidisciplinario en las áreas contables, fiscales, financieras y operativas con el objetivo común de apoyar en los esfuerzos de crecimiento y desarrollo de nuestros clientes. Nuestra firma está liderada por personal con alta capacidad y experiencia, practicando en las organizaciones sus valores éticos, profesionalismo, compartiendo el conocimiento con objetividad e independencia.
+        <p class="text-lighten" style="text-align: justify;">Ofrecemos un servicio multidisciplinario en las áreas contables, fiscales, financieras y operativas con el objetivo común de apoyar en los esfuerzos de crecimiento y desarrollo de nuestros clientes. Nuestra firma está liderada por personal con alta capacidad y experiencia, practicando en las organizaciones sus valores éticos, profesionalismo, compartiendo el conocimiento con objetividad e independencia.
         </p>
 
       </div>
@@ -38,7 +38,7 @@
 
       <div class="col-12">
 
-        <img class="img-fluid w-100 mb-4" src="<?php echo $url?>views/images/services/consultoria2.jpg" alt="about image">
+        <img class="img-fluid w-100 mb-4" src="<?php echo $url?>views/images/services/consultoria.jpg" alt="about image">
 
         <h2 class="section-title">Consultoría</h2>
 
@@ -72,7 +72,7 @@
 
       <div class="col-12">
 
-        <img class="img-fluid w-100 mb-4" src="<?php echo $url?>views/images/services/impuestos2.jpg" alt="about image">
+        <img class="img-fluid w-100 mb-4" src="<?php echo $url?>views/images/services/impuestos.jpg" alt="about image">
 
         <h2 class="section-title">Impuestos</h2>
 
@@ -83,7 +83,7 @@
 
           <li>Impuestos Corporativos.</li>
           <li>Precios de Transferencia.</li>
-          <li>Diagnostico Fiscal.</li>
+          <li>Diagnóstico Fiscal.</li>
           <li>Asesoría y Capacitación.</li>
 
         </ul>
@@ -106,7 +106,7 @@
 
       <div class="col-12">
 
-        <img class="img-fluid w-100 mb-4" src="<?php echo $url?>views/images/services/lupa2.jpg" alt="about image">
+        <img class="img-fluid w-100 mb-4" src="<?php echo $url?>views/images/services/lupa.jpg" alt="about image">
 
         <h2 class="section-title">Auditoría</h2>
 
@@ -140,16 +140,16 @@
 
       <div class="col-12">
 
-        <img class="img-fluid w-100 mb-4" src="<?php echo $url?>views/images/services/engine2.jpg" alt="about image">
+        <img class="img-fluid w-100 mb-4" src="<?php echo $url?>views/images/services/engine.jpg" alt="about image">
 
         <h2 class="section-title">Aseguramiento y cumplimiento</h2>
 
-        <p style="text-align: justify;">Nuestro componente Elemental, nuestro equipo, esta capacitado para la gestión de riesgos empresariales, cumplimiento regulatorio e instaurar un gobierno corporativo que asegure la continuidad del negocio.
+        <p style="text-align: justify;">Nuestro componente elemental es nuestro equipo, el cuál está capacitado para la gestión de riesgos empresariales, cumplimiento regulatorio e instaurar un gobierno corporativo que asegure la continuidad del negocio.
         </p>
 
         <ul class="list-styled">
 
-          <li>Peritajes contable.</li>
+          <li>Peritaje contable.</li>
           <li>Control Interno.</li>
           <li>Gestión de Riesgos Empresariales.</li>
           <li>Gobierno Corporativo.</li>

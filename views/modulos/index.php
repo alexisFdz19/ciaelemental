@@ -93,7 +93,7 @@
 <!-- /hero slider -->
 
 <!-- about us -->
-<section class="section" id="AcercaDeCIA">
+<section class="section hero-section overlay" id="AcercaDeCIA">
 
   <div class="container scrollflow -slide-top -opacity">
 
@@ -101,13 +101,13 @@
 
       <div class="col-md-6 order-2 order-md-1">
 
-        <h2 class="section-title">Acerca de CIA Elemental</h2>
+        <h2 class="section-title" style="color: #F29C3C;">Acerca de CIA Elemental</h2>
 
-          <p>Somos una firma especializada en servicios de Consultoría, Impuestos y Auditoria, con una visión estratégica de negocios para las distintas industrias de transformación, consumo, hotelería y de servicios.  A lo largo de mas de 18 años de experiencia hemos consolidado una metodología  de trabajo clara para la gestión del riesgo.<br><br>
+          <p style="text-align: justify; color: #d6d6e0;">Somos una firma especializada en servicios de Consultoría, Impuestos y Auditoria, con una visión estratégica de negocios para las distintas industrias de transformación, consumo, hotelería y de servicios.  A lo largo de mas de 18 años de experiencia hemos consolidado una metodología  de trabajo clara para la gestión del riesgo.<br><br>
 
           Nuestra misión es prestar un servicio Integrado consolidando cada parte en un todo, para ofrecer resultados oportunos y eficientes.<br><br>
             
-          Nuestro componente Elemental, nuestro equipo, proviene firmas reconocidas nivel nacional e internacional, lo que nos convierte en una opción altamente competitiva.
+          Nuestro componente Elemental, nuestro equipo, proviene de firmas reconocidas a nivel nacional e internacional, lo que nos convierte en una opción altamente competitiva.
           </p>
           <!--<a href="about.html" class="btn btn-primary-outline">Learn more</a>-->
 
@@ -127,7 +127,7 @@
 <!-- /about us -->
 
 <!-- about us 2-->
-<section class="section" id="DondeOperamos">
+<section class="section hero-section overlay" id="DondeOperamos">
 
   <div class="container scrollflow -slide-top -opacity">
 
@@ -135,9 +135,9 @@
 
       <div class="col-md-6 order-2 order-md-2">
 
-        <h2 class="section-title">¿Dónde operamos?</h2>
+        <h2 class="section-title" style="color: #F29C3C;">¿Dónde operamos?</h2>
 
-          <p>Operamos en toda la Republica Mexica a través de diversas alianzas, nuestra firma esta ubicada en el sureste de Mexico, principalmente prestando servicios a empresa en Mérida, Yucatán y Cancún, Quintana Roo.<br><br>
+          <p style="text-align: justify; color: #d6d6e0;">Operamos en toda la República Mexicana a través de diversas alianzas, nuestra firma esta ubicada en el sureste de México, principalmente prestando servicios a empresa en Mérida, Yucatán y Cancún, Quintana Roo.<br><br>
 
           Actualmente estamos trabajando a través de medios electrónicos y oficinas virtuales, realizando visitas y juntas presenciales solo de ser requerido, esto nos permite mantener tarifas competitivas de nuestros servicios.
           </p>
@@ -158,178 +158,3 @@
 </section>
 <!-- /about us -->
 
-<!-- courses -->
-<section class="section-sm">
-
-  <div class="container scrollflow -slide-top -opacity">
-
-    <div class="row">
-
-      <div class="col-12">
-
-        <div class="d-flex align-items-center section-title justify-content-between">
-
-          <h2 class="mb-0 text-nowrap mr-3">Servicios</h2>
-
-          <div class="border-top w-100 border-primary d-none d-sm-block"></div>
-          <!--<div>
-            <a href="courses.html" class="btn btn-sm btn-primary-outline ml-sm-3 d-none d-sm-block">see all</a>
-          </div>-->
-
-        </div>
-
-      </div>
-
-    </div>
-
-  <!-- course list -->
-  <div class="row justify-content-center">
-
-    <!-- course item -->
-    <div class="col-lg-3 col-sm-6 mb-5">
-
-      <div class="card p-0 border-primary rounded-0 hover-shadow">
-
-        <img class="card-img-top rounded-0" src="<?php echo $url?>views/images/services/consultoria.jpg" alt="course thumb">
-
-        <div class="card-body">
-
-          <!--<ul class="list-inline mb-2">
-            <li class="list-inline-item"><i class="ti-calendar mr-1 text-color"></i>02-14-2018</li>
-            <li class="list-inline-item"><a class="text-color" href="#">Humanities</a></li>
-          </ul>-->
-
-          <h4 class="card-title">Consultoría</h4>
-
-          </a>
-
-          <p class="card-text mb-4">
-
-            - Contabilidad. <br>
-            - Análisis de Estados Financieros bajo Normatividad Mexicana e Internacional. <br>
-            - Nóminas y Seguridad Social.<br>
-            - Consolidación Financiera y Conversión de Moneda Extranjera.<br>
-
-          </p>
-
-          <!--<a href="course-single.html" class="btn btn-primary btn-sm">Apply now</a>-->
-
-        </div>
-
-      </div>
-
-    </div>
-
-  <!-- course item -->
-  <div class="col-lg-3 col-sm-6 mb-5">
-
-    <div class="card p-0 border-primary rounded-0 hover-shadow">
-
-      <img class="card-img-top rounded-0" src="<?php echo $url?>views/images/services/impuestos.jpg" alt="course thumb">
-
-      <div class="card-body">
-
-        <!--<ul class="list-inline mb-2">
-          <li class="list-inline-item"><i class="ti-calendar mr-1 text-color"></i>02-14-2018</li>
-          <li class="list-inline-item"><a class="text-color" href="#">Humanities</a></li>
-        </ul>-->
-
-        <h4 class="card-title">Impuestos</h4>
-
-        <p class="card-text mb-4"> 
-
-          -Impuestos Corporativos.<br>
-          -Precios de Transferencia.<br>
-          -Diagnostico Fiscal.<br>
-          -Asesoría y Capacitación.<br>
-
-        </p>
-
-        <!--<a href="course-single.html" class="btn btn-primary btn-sm">Apply now</a>-->
-
-      </div>
-
-    </div>
-
-  </div>
-
-  <!-- course item -->
-
-  <div class="col-lg-3 col-sm-6 mb-5">
-
-    <div class="card p-0 border-primary rounded-0 hover-shadow">
-
-      <img class="card-img-top rounded-0" src="<?php echo $url?>views/images/services/lupa.jpg" alt="course thumb">
-
-      <div class="card-body">
-
-        <!--<ul class="list-inline mb-2">
-          <li class="list-inline-item"><i class="ti-calendar mr-1 text-color"></i>02-14-2018</li>
-          <li class="list-inline-item"><a class="text-color" href="#">Humanities</a></li>
-        </ul>-->
-
-        <h4 class="card-title">Auditoría</h4>
-
-        <p class="card-text mb-4"> 
-
-          -Financiera.<br>
-          -Interna e integral.<br>
-          -Ambiental y <br>
-          -Tecnologías de Información.<br>
-
-        </p>
-
-        <!--<a href="course-single.html" class="btn btn-primary btn-sm">Apply now</a>-->
-
-      </div>
-
-    </div>
-
-  </div>
-
-  <!-- course item -->
-  <div class="col-lg-3 col-sm-6 mb-5">
-
-    <div class="card p-0 border-primary rounded-0 hover-shadow">
-
-      <img class="card-img-top rounded-0" src="<?php echo $url?>views/images/services/engine.jpg" alt="course thumb">
-
-      <div class="card-body">
-
-        <!--<ul class="list-inline mb-2">
-          <li class="list-inline-item"><i class="ti-calendar mr-1 text-color"></i>02-14-2018</li>
-          <li class="list-inline-item"><a class="text-color" href="#">Humanities</a></li>
-        </ul>-->
-
-        <h4 class="card-title">Aseguramiento y cumplimiento</h4>
-
-        <p class="card-text mb-4"> 
-
-          -Peritajes contable.<br>
-          -Control Interno.<br>
-          -Gestión de Riesgos Empresariales.<br>
-          -Gobierno Corporativo.<br>
-
-        </p>
-
-        <!--<a href="course-single.html" class="btn btn-primary btn-sm">Apply now</a>-->
-
-      </div>
-
-    </div>
-
-  </div>
-
-</div>
-
-<!-- /course list -->
-    <!-- mobile see all button -->
-    <!--<div class="row">
-      <div class="col-12 text-center">
-        <a href="courses.html" class="btn btn-sm btn-primary-outline d-sm-none d-inline-block">sell all</a>
-      </div>
-    </div>-->
-  </div>
-
-</section>
-<!-- /courses -->

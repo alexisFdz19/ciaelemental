@@ -43,11 +43,11 @@
 
       <div class="col-lg-7 mb-4 mb-lg-0">
 
-        <form action="#">
+        <form action="">
 
           <input type="text" class="form-control mb-3" id="name" name="name" placeholder="Nombre">
-          <input type="email" class="form-control mb-3" id="mail" name="mail" placeholder="Correo">
-          <input type="text" class="form-control mb-3" id="subject" name="subject" placeholder="Asunto">
+          <input type="email" class="form-control mb-3" id="mail" name="email" placeholder="Correo">
+          <!--<input type="text" class="form-control mb-3" id="subject" name="subject" placeholder="Asunto">-->
           <textarea name="message" id="message" class="form-control mb-3" placeholder="Mensaje"></textarea>
 
           <button type="submit" value="send" class="btn btn-primary">Enviar</button>

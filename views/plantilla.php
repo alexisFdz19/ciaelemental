@@ -149,6 +149,12 @@
 
     <!-- Cierre de los divs principales del body -->
 
+    <a class="appWhatsApp animated bounceIn" target="_blank" href="https://api.whatsapp.com/send?phone=52 9982149538&text=¡Hola&nbsp;amigos&nbsp;de&nbsp;CIA Elemental!&nbsp;¿Pueden&nbsp;ayudarme?">
+
+        <img src="<?php echo $url?>views/images/social-media.png" alt="WhatsApp">
+
+    </a>
+
     <!-- Aviso de privacidad-->
     <div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog modal-lg" role="document">
