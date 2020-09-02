@@ -14,12 +14,12 @@
 
           <div class="col-md-8">
 
-            <a href="<?php echo $url?>"><h1 class="text-white">Gracias</h1></a>  
+            <a href="<?php echo $url?>"><h1 class="text-white">¡Gracias!</h1></a>  
 
-            <p class="text-muted mb-4"  style="text-align: justify;">Responderemos tu mensaje a la brevedad
+            <p class="text-muted mb-4"  style="text-align: justify;">Tu correo ha sido enviado, te responderemos a la brevedad
             </p>
 
-            <a href="www.ciaelemental.com/contacto" class="btn btn-primary">Regresar</a>
+            <a href="<?php echo $url?>contacto" class="btn btn-primary">Regresar</a>
 
           </div>
 

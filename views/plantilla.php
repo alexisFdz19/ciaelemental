@@ -123,6 +123,10 @@
                             case 'contacto':
                                 include "modulos/contacto.php"; // Ruta del archivo de la página
                                 break;
+
+                            case 'correo-enviado':
+                                    include "modulos/correo-enviado.php"; // Ruta del archivo de la página
+                                    break;
                             
                             // Página de error 404   
                             default:
