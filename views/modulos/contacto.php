@@ -43,12 +43,12 @@
 
       <div class="col-lg-7 mb-4 mb-lg-0">
 
-        <form action="">
+        <form action="<?php echo $url?>/views/php/send_mail.php" method="post">
 
-          <input type="text" class="form-control mb-3" id="name" name="name" placeholder="Nombre">
-          <input type="email" class="form-control mb-3" id="mail" name="email" placeholder="Correo">
-          <!--<input type="text" class="form-control mb-3" id="subject" name="subject" placeholder="Asunto">-->
-          <textarea name="message" id="message" class="form-control mb-3" placeholder="Mensaje"></textarea>
+          <input type="text" class="form-control mb-3" id="name" name="name" placeholder="Nombre" required>
+          <input type="email" class="form-control mb-3" id="mail" name="email" placeholder="Correo" required>
+          <!--<input type="text" class="form-control mb-3" id="subject" name="subject" placeholder="Asunto" required>-->
+          <textarea name="message" id="message" class="form-control mb-3" placeholder="Mensaje" required></textarea>
 
           <button type="submit" value="send" class="btn btn-primary">Enviar</button>
 

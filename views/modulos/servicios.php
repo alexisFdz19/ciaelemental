@@ -38,7 +38,7 @@
 
       <div class="col-12">
 
-        <img class="img-fluid w-100 mb-4" src="<?php echo $url?>views/images/services/consultoria.jpg" alt="about image">
+        <img class="img-fluid w-100 mb-4" src="<?php echo $url?>views/images/services/consultoria2.jpg" alt="about image">
 
         <h2 class="section-title">Consultoría</h2>
 
@@ -72,7 +72,7 @@
 
       <div class="col-12">
 
-        <img class="img-fluid w-100 mb-4" src="<?php echo $url?>views/images/services/impuestos.jpg" alt="about image">
+        <img class="img-fluid w-100 mb-4" src="<?php echo $url?>views/images/services/impuestos2.jpg" alt="about image">
 
         <h2 class="section-title">Impuestos</h2>
 
@@ -106,7 +106,7 @@
 
       <div class="col-12">
 
-        <img class="img-fluid w-100 mb-4" src="<?php echo $url?>views/images/services/lupa.jpg" alt="about image">
+        <img class="img-fluid w-100 mb-4" src="<?php echo $url?>views/images/services/lupa2.jpg" alt="about image">
 
         <h2 class="section-title">Auditoría</h2>
 
@@ -140,7 +140,7 @@
 
       <div class="col-12">
 
-        <img class="img-fluid w-100 mb-4" src="<?php echo $url?>views/images/services/engine.jpg" alt="about image">
+        <img class="img-fluid w-100 mb-4" src="<?php echo $url?>views/images/services/engine2.jpg" alt="about image">
 
         <h2 class="section-title">Aseguramiento y cumplimiento</h2>
 
