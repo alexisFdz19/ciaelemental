@@ -48,7 +48,17 @@
     <link rel="shortcut icon" href="<?php echo $url?>views/images/favicon2.png" type="image/x-icon">
     <link rel="icon" href="<?php echo $url?>views/images/favicon2.png" type="image/x-icon">
 
-    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-177260226-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-177260226-1');
+    </script>
+
+
 </head>
 
 <body>
