@@ -93,7 +93,7 @@
 <!-- /hero slider -->
 
 <!-- about us -->
-<section class="section hero-section overlay" id="AcercaDeCIA">
+<section class="section overlay" id="AcercaDeCIA" style="padding-top 30px;">
 
   <div class="container scrollflow -slide-top -opacity">
 
@@ -127,7 +127,7 @@
 <!-- /about us -->
 
 <!-- about us 2-->
-<section class="section hero-section overlay" id="DondeOperamos">
+<section class="section overlay" id="DondeOperamos">
 
   <div class="container scrollflow -slide-top -opacity">
 
