@@ -7,6 +7,8 @@ class CategoriaModel extends AppModel{
 		parent::__construct();
 	
 	}
+	
+	// Mostrar
 
 	private static $nombre = "categorias";
 
@@ -17,6 +19,8 @@ class CategoriaModel extends AppModel{
 		return $categorias->fetchall();
 
 	}
+
+	// Agregar
 
 	public function guardar($datos){
 
@@ -46,6 +50,8 @@ class CategoriaModel extends AppModel{
 
 	}
 
+	// Buscar
+
 	public function buscarPorId($id){
 
 		$categoria = $this->_db->prepare("   
@@ -67,6 +73,8 @@ class CategoriaModel extends AppModel{
 
 
 	}
+
+	// Editar
 
 	public function actualizar($datos){
 
@@ -94,6 +102,8 @@ class CategoriaModel extends AppModel{
 		}
 
 	}
+
+	// Eliminar
 
 	public function eliminarPorId($id){
 

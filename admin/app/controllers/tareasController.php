@@ -12,6 +12,8 @@ class tareasController extends AppController{
 
 	}
 
+	// Mostrar
+
 	public function index(){
 
 		$tareas = $this->loadmodel("tarea");
@@ -21,6 +23,8 @@ class tareasController extends AppController{
 		$this->_view->renderizar("index");
 	
 	}
+
+	// Agregar
 
 	public function Agregar(){
 
@@ -49,6 +53,8 @@ class tareasController extends AppController{
 
 
 	}
+
+	// Editar
 
 	public function editar($id=null){
 
@@ -91,6 +97,8 @@ class tareasController extends AppController{
 
 	}
 
+	// Eliminar
+
 	public function eliminar ($id){
 
 		$tarea = $this->loadModel("tarea");
@@ -110,6 +118,8 @@ class tareasController extends AppController{
 		}
 
 	}
+
+	// Cambiar estado
 
 	public function cambiarEstado($id, $status){
 

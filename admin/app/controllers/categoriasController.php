@@ -10,7 +10,8 @@ class categoriasController extends AppController{
 		$this->_messages = new \Plasticbrain\flashMessages\flashMessages();
 
     }
-    
+	
+	// Mostrar
     
 	public function index(){
 
@@ -21,6 +22,8 @@ class categoriasController extends AppController{
 		$this->_view->renderizar("index");
 	
 	}
+
+	// Agregar
 
 	public function Agregar(){
 
@@ -48,6 +51,8 @@ class categoriasController extends AppController{
 		$this->_view->renderizar("agregar");
 
 	}
+
+	// Editar
 
 	public function editar($id=null){
 
@@ -86,6 +91,8 @@ class categoriasController extends AppController{
 		$this->_view->renderizar("editar");
 
 	}
+
+	// Eliminar
 
 		public function eliminar ($id){
 

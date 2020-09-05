@@ -8,6 +8,8 @@ class TareaModel extends AppModel{
 	
 	}
 
+	// Mostrar
+
 	public function getTareas(){
 
 		$tareas = $this->_db->query("SELECT * FROM tareas INNER JOIN categorias ON tareas.categoria_id=categorias.id");
@@ -38,6 +40,8 @@ class TareaModel extends AppModel{
 		//return $tareas->fetchall();
 
 	}
+
+	// Agregar
 
 	public function guardar($datos = array()){
 
@@ -71,6 +75,8 @@ class TareaModel extends AppModel{
 
 	}
 
+	// Buscar
+
 	public function buscarPorId($id){
 
 		$tarea = $this->_db->prepare("   
@@ -92,6 +98,8 @@ class TareaModel extends AppModel{
 
 
 	}
+
+	// Editar
 
 	public function actualizar($datos = array()){
 
@@ -128,6 +136,8 @@ class TareaModel extends AppModel{
 
 	}
 
+	// Eiiminar
+
 	public function eliminarPorId($id){
 
 		$consulta = $this->_db->prepare(
@@ -148,6 +158,8 @@ class TareaModel extends AppModel{
 		}
 
 	}
+
+	// Cambiar estado
 
 	public function status($id, $status){
 
