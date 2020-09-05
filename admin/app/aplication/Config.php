@@ -1,5 +1,6 @@
 <?php
 
+//define("DEFAULT_CONTROLLER", "tareas"); // Conrolador default
 define("DEFAULT_CONTROLLER", "tareas"); // Conrolador default
 define("DEFAULT_LAYOUT", "default"); // plantilla default
 

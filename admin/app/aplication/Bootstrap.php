@@ -7,6 +7,7 @@ class Bootstrap
 		$rutaControlador = ROOT."controllers".DS.$controller.".php";
 		$metodo = $peticion->getMetodo();
 		$args = $peticion->getArgs();
+		
 		if (is_readable($rutaControlador)) {
 			require_once $rutaControlador;
 			$controller = new $controller;
