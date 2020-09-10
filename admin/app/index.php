@@ -1,31 +1,30 @@
 <?php
 
-define("DS", DIRECTORY_SEPARATOR); //Separadores (/) linux y /(\) windows
-define("ROOT", realpath(dirname(__FILE__)) . DS); //Donde poner el archivo raiz
-define("APP_PATH", ROOT . "aplication" . DS); //donde esta la aplicacion
+require_once "controladores/plantilla.controlador.php";
+require_once "controladores/usuarios.controlador.php";
+require_once "controladores/categorias.controlador.php";
+require_once "controladores/productos.controlador.php";
+require_once "controladores/clientes.controlador.php";
+require_once "controladores/ventas.controlador.php";
+require_once "controladores/pyc.controlador.php";
+require_once "controladores/comentariosPYC.controlador.php";
+require_once "controladores/censo.controlador.php";
+require_once "controladores/registro.controlador.php";
+//require_once "controladores/registroController.php";
+require_once "controladores/progreso.controlador.php";
 
-//echo APP_PATH;
+require_once "modelos/usuarios.modelo.php";
+require_once "modelos/categorias.modelo.php";
+require_once "modelos/productos.modelo.php";
+require_once "modelos/clientes.modelo.php";
+require_once "modelos/ventas.modelo.php";
+require_once "modelos/pyc.modelo.php";
+require_once "modelos/comentariosPYC.modelo.php";
+require_once "modelos/censo.modelo.php";
+require_once "modelos/registro.modelo.php";
+require_once "modelos/progreso.modelo.php";
 
-require_once(APP_PATH . "Config.php");
-require_once(APP_PATH . "Request.php");
-require_once(APP_PATH . "Bootstrap.php");
-require_once(APP_PATH . "Controller.php");
-require_once(APP_PATH . "Model.php");
-require_once(APP_PATH . "View.php");
-require_once(APP_PATH . "Database.php");
-require_once(ROOT . "libs" . DS .  "FlashMessages.php");
 
-//echo "<pre>";
-//print_r(get_required_files());
 
-if (!session_id()) @session_start();
-
-try{
-
-	Bootstrap::run(new Request);
-} 
-	catch(Exception $e){
-		
-		echo $e->getMessage();
-
-}
+$plantilla = new ControladorPlantilla();
+$plantilla -> ctrPlantilla();

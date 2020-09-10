@@ -1,0 +1,9 @@
+[06-Sep-2019 06:59:53 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/electr/public_html/modelos/conexion.php:9
+Stack trace:
+#0 /home/electr/public_html/modelos/conexion.php(9): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/electr/public_html/modelos/productos.modelo.php(25): Conexion::conectar()
+#2 /home/electr/public_html/controladores/productos.controlador.php(13): ModeloProductos::mdlMostrarProductos('productos', NULL, NULL, 'id')
+#3 /home/electr/public_html/ajax/datatable-productos.ajax.php(22): ControladorProductos::ctrMostrarProductos(NULL, NULL, 'id')
+#4 /home/electr/public_html/ajax/datatable-productos.ajax.php(120): TablaProductos->mostrarTablaProductos()
+#5 {main}
+  thrown in /home/electr/public_html/modelos/conexion.php on line 9

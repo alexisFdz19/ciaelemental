@@ -1,0 +1,4 @@
+[06-Sep-2019 07:12:04 UTC] PHP Fatal error:  Uncaught Error: Class 'ControladorCategorias' not found in /home/electr/public_html/vistas/modulos/proyectos.php:87
+Stack trace:
+#0 {main}
+  thrown in /home/electr/public_html/vistas/modulos/proyectos.php on line 87
