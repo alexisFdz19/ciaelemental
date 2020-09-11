@@ -195,7 +195,7 @@ h6, .h6 {
 }
 
 .btn-primary:hover {
-  background: ##F29C3C;
+  background: #F29C3C;
   color: #F29C3C;
 }
 
@@ -368,7 +368,7 @@ a h4:hover {
   width: 100%;
   top: 0;
   left: 0;
-  background: #3c8dbc;
+  background: #1a1a37;
   opacity: .8;
 }
 
@@ -385,7 +385,7 @@ a h4:hover {
 }
 
 .bg-secondary {
-  background: #3c8dbc !important;
+  background: #1a1a37 !important;
 }
 
 .bg-gray {
@@ -558,13 +558,13 @@ textarea.form-control {
 
 @media (max-width: 991px) {
   .navigation {
-    background: #3c8dbc;
+    background: #1a1a37;
   }
 }
 
 @media (max-width: 991px) {
   .navbar-collapse {
-    background: #3c8dbc;
+    background: #1a1a37;
   }
 }
 
@@ -576,12 +576,12 @@ textarea.form-control {
 @media (max-width: 991px) {
   .navbar-nav {
     padding-left: 0;
-    background: #3c8dbc;
+    background: #1a1a37;
   }
 }
 
 .nav-bg {
-  background-color: #3c8dbc;
+  background-color: #1a1a37;
 }
 
 .nav-item {
@@ -997,7 +997,7 @@ link:focus,
 }
 
 .bg-footer {
-  background-color: #3c8dbc;
+  background-color: #1a1a4b;
 }
 
 .logo-footer {
