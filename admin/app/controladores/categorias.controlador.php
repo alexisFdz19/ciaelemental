@@ -38,7 +38,7 @@ class ControladorCategorias{
 
 		if(isset($_POST["nuevaCategoria"])){
 
-			if(preg_match('/^[a-zA-Z0-9ñÑáéíóúÁÉÍÓÚ ]+$/', $_POST["nuevaCategoria"])){
+			if(preg_match('/^[a-zA-Z0-9ñÑáéíóúÁÉÍÓÚ ]|[a-zA-Z0-9]|[a-zA-Z0-9\,]|[#\.\-a-zA-Z0-9 ]+$/', $_POST["nuevaCategoria"])){
 
 				$tabla = "tareas";
 
@@ -107,7 +107,7 @@ class ControladorCategorias{
 
 		if(isset($_POST["editarCategoria"])){
 
-			if(preg_match('/^[a-zA-Z0-9ñÑáéíóúÁÉÍÓÚ ]+$/', $_POST["editarCategoria"]) &&
+			if(preg_match('/^[a-zA-Z0-9ñÑáéíóúÁÉÍÓÚ ]|[a-zA-Z0-9]|[a-zA-Z0-9\,]|[#\.\-a-zA-Z0-9 ]+$/', $_POST["editarCategoria"]) &&
 				preg_match('/^[a-zA-Z0-9ñÑáéíóúÁÉÍÓÚ ]|[a-zA-Z0-9]|[a-zA-Z0-9\,]|[#\.\-a-zA-Z0-9 ]+$/', $_POST["editarLugar"]) &&
 				preg_match('/^[#\.\-a-zA-Z0-9 ]+$/', $_POST["editarFI"])&&
 				preg_match('/^[a-zA-Z0-9ñÑáéíóúÁÉÍÓÚ ]|[a-zA-Z0-9]|[a-zA-Z0-9\,]|[#\.\-a-zA-Z0-9 ]+$/', $_POST["editarLumi"]) &&
