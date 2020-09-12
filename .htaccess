@@ -7,3 +7,10 @@ Options All -Indexes
 RewriteEngine On
 
 RewriteRule ^([-a-zA-Z0-9/]+)$ index.php?ruta=$1
+
+# Forzar https
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ciaelemental\.com [NC]
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://www.ciaelemental.com/$1 [R,L]
